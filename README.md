@@ -15,7 +15,7 @@ Aaron R. Kaufman
 New York University Abu Dhabi
 Email: [aaronkaufman@nyu.edu](mailto:aaronkaufman@nyu.edu)
 
----
+
 
 ## Overview
 
@@ -27,7 +27,7 @@ The Congressional Oratory Research Archive, CORA, is a large scale, structured c
 
 The repository is organised to reflect the three primary stages of data construction described in the paper, followed by technical validation procedures and topic labeling workflows.
 
----
+
 
 ## Data Construction Pipeline
 
@@ -43,7 +43,7 @@ Stage 1 compiles and structures foundational speech and legislator data. It inte
 * `BioID/bioguide_profiles.csv`
 * `BioID/link.txt`
 
----
+
 
 ### Stage 2
 
@@ -55,7 +55,7 @@ Stage 2 expands and harmonises speech level data, linking textual content with l
 * `BioID/bioguide_profiles.csv`
 * `BioID/link.txt`
 
----
+
 
 ### Stage 3
 
@@ -67,7 +67,7 @@ Stage 3 finalises dataset construction, performs additional cleaning and consoli
 * `Stage3b.py`
 * `BioID/bioguide_profiles.csv`
 
----
+
 
 ## Topic Labeling and Model Training
 
@@ -87,7 +87,7 @@ The repository includes scripts for training and applying the topic labeling mod
 * `training_data.csv`
   Labeled training dataset used for model development.
 
----
+
 
 ## Technical Validation
 
@@ -111,7 +111,7 @@ Human validation was conducted under two conditions:
 
    * `Human/Model_labeled_speeches.xlsx`
 
----
+
 
 ### Validation 1
 
@@ -144,7 +144,7 @@ Key files include:
 
 These scripts reproduce comparative analyses using both CORA and external benchmark datasets.
 
----
+
 
 ### Validation 2
 
@@ -162,7 +162,7 @@ This validation evaluates whether CORA captures shifts in rhetorical style betwe
 * `evidence.txt`
 * `intuition.txt`
 
----
+
 
 ## Directory Structure
 
@@ -178,7 +178,7 @@ CORA-Code
 
 Each top level directory corresponds to a distinct component of the research workflow: data construction, model development, and empirical validation.
 
----
+
 
 ## Replication Instructions
 
@@ -193,7 +193,7 @@ To reproduce the dataset and validation analyses:
 
 Detailed parameter settings and computational specifications are described in the paper.
 
----
+
 
 ## Data Scope
 
@@ -204,7 +204,7 @@ CORA covers speeches from the United States Congressional Record from 1873 throu
 * Topic classifications generated through supervised machine learning
 * Validation outputs
 
----
+
 
 ## Citation
 
@@ -215,7 +215,7 @@ Rabbani, Shahid, and Kaufman, Aaron R.
 
 Full citation details will be updated upon publication.
 
----
+
 
 ## Contact
 
