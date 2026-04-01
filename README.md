@@ -27,6 +27,11 @@ The Congressional Oratory Research Archive, CORA, is a large scale, structured c
 
 The repository is organised to reflect the three primary stages of data construction described in the paper, followed by technical validation procedures and topic labeling workflows.
 
+## Web Platform
+
+An interactive web platform for exploring the CORA dataset is available at:
+
+https://cora.nyuad.nyu.edu/
 
 
 ## Data Construction Pipeline
